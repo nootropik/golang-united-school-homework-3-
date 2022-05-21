@@ -8,5 +8,4 @@ func reverse(input []int64) (result []int64) {
 		result[i], result[j] = result[j], result[i]
 	}
 
-	return result
 }
